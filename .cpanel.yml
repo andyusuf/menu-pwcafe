@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u6749440/public_html/
+    - /bin/cp/menucafe index.html $DEPLOYPATH
